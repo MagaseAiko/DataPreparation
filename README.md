@@ -3,7 +3,7 @@
 Projeto de preparação de dados para classificação de personalidade (Introvertido vs Extrovertido).
 
 ## Descrição
-Este repositório contém o pipeline de preparação de dados para um conjunto de dados gerado a partir de um modelo de deep learning treinado no conjunto de dados Extrovert vs Introvert Behavior. O objetivo principal é limpar, transformar e balancear os dados antes da aplicação de modelos de machine learning.
+Este repositório contém o pipeline de preparação de dados para um conjunto de dados gerado a partir de um modelo de deep learning treinado no conjunto de dados Extrovert vs Introvert Behavior. O objetivo principal é limpar, transformar e balancear os dados antes da aplicação de modelos de machine learning, especificamente utilizando Random Forest para classificação de personalidade (Introvertido vs Extrovertido).
 
 ## Fonte dos dados
 Os dados foram obtidos em:
@@ -29,8 +29,10 @@ O notebook realiza as seguintes etapas principais:
 6. Seleção de features com `SelectKBest`.
 7. Divisão em treino e teste.
 8. Balanceamento das classes com `SMOTE`.
+8. Treinamento do modelo Random Forest.
 
-## Uso
+## Modelo Utilizado
+O pipeline inclui o treinamento de um modelo Random Forest para classificar se uma pessoa é introvertida ou extrovertida com base nos dados preparados.
 1. Abra o notebook `Introvert vs. Extrovert/data_preparation_pipeline_Int_Ext.ipynb`.
 2. Execute as células na ordem para reproduzir o pré-processamento.
 3. Utilize os dados preparados para treinar modelos de machine learning.
