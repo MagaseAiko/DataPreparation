@@ -28,7 +28,6 @@ O notebook realiza as seguintes etapas principais:
 5. Codificação de variáveis categóricas.
 6. Seleção de features com `SelectKBest`.
 7. Divisão em treino e teste.
-8. Balanceamento das classes com `SMOTE`.
 8. Treinamento do modelo Random Forest.
 
 ## Modelo Utilizado
